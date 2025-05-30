@@ -14,7 +14,7 @@ COPY target/config-server-1.0.jar /app/config-server-1.0.jar
 #│   ├── config-files/
 #│   └── target/
 
-#COPY ../config-files /app/config-files
+COPY ../config-files /app/config-files
 
 
 # Tell Spring where to find the external config files
